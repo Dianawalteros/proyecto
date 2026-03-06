@@ -116,3 +116,14 @@ Proyecto desarrollado por:
 **Diana Walteros**
 
 Estudiante de Desarrollo de Software.
+
+# Diagramas UML del sistema de empresa de dulces
+
+## Diagrama de Casos de Uso
+![Diagrama de Casos de Uso](documentacion/diagrama_casos_uso.png)
+
+## Diagrama de Clases
+![Diagrama de Clases](documentacion/diagrama_clases.png)
+
+## Diagrama de Secuencia
+![Diagrama de Secuencia](documentacion/diagrama_secuencia.png)
