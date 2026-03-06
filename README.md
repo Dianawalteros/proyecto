@@ -117,13 +117,13 @@ Proyecto desarrollado por:
 
 Estudiante de Desarrollo de Software.
 
-# Diagramas UML del sistema de empresa de dulces
+# Diagramas UML del sistema de dulces
 
 ## Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](documentacion/diagrama_casos_uso.png)
+![Casos de Uso](documentacion/diagramas/casos-de-uso.png)
 
 ## Diagrama de Clases
-![Diagrama de Clases](documentacion/diagrama_clases.png)
+![Clases](documentacion/diagramas/diagrama_clases.png)
 
 ## Diagrama de Secuencia
-![Diagrama de Secuencia](documentacion/diagrama_secuencia.png)
+![Secuencia](documentacion/diagramas/diagrama_secuencia.png)
