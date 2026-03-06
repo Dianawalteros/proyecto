@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #de96f0, #fbc7d4);
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Añadido para centrar verticalmente */
+    align-items: center;
+    min-height: 100vh; /* Asegura que tome toda la altura de la ventana */
+    padding: 20px;
+    box-sizing: border-box; /* Previene que el padding cause scroll */
+}
+/* Estilo general para los botones/enlaces del menú */
+.nav {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #ff7eb3, #ff4d6d);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Efecto hover */
+.nav-:hover {
+    background: linear-gradient(90deg, #ff4d6d, #ff7eb3);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Estilo general de los botones tipo dulce */
+button {
+  background: linear-gradient(135deg, #ff80b5, #ff4d94); /* rosa dulce */
+  border: none;
+  border-radius: 30px; /* forma de caramelo */
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  margin: 8px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2), inset 0 2px 4px rgba(255,255,255,0.5);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button {
+  background: linear-gradient(135deg, #ff80b5, #ff4d94);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  margin: 8px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2), inset 0 2px 4px rgba(255,255,255,0.5);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  /* Fix */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efecto hover */
+button:hover {
+  transform: scale(1.08);
+  background: linear-gradient(135deg, #ff99cc, #ff3385);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.25), inset 0 2px 6px rgba(255,255,255,0.6);
+}
+
+/* Efecto clic */
+button:active {
+  transform: scale(0.95);
+}
+

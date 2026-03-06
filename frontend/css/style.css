@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #de96f0, #fbc7d4);
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Añadido para centrar verticalmente */
+    align-items: center;
+    min-height: 100vh; /* Asegura que tome toda la altura de la ventana */
+    padding: 20px;
+    box-sizing: border-box; /* Previene que el padding cause scroll */
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+button {
+    background: linear-gradient(135deg, #ff80b5, #ff4d94); /* rosa dulce */
+    border: none;
+    border-radius: 30px; /* forma de caramelo */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 25px;
+    margin: 8px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2), inset 0 2px 4px rgba(255,255,255,0.5);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button {
+    background: linear-gradient(135deg, #ff80b5, #ff4d94);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 25px;
+    margin: 8px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2), inset 0 2px 4px rgba(255,255,255,0.5);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* Fix */
+    position: relative;
+    overflow: hidden;
+}
+
+    /* Efecto hover */
+    button:hover {
+        transform: scale(1.08);
+        background: linear-gradient(135deg, #ff99cc, #ff3385);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.25), inset 0 2px 6px rgba(255,255,255,0.6);
+    }
+
+    /* Efecto clic */
+    button:active {
+        transform: scale(0.95);
+    }
+
+/* TITULO */
+.titulo {
+    margin-top: 20px;
+    color: #333;
+    flex-direction: column;
+}
+
+/* BOTON CARRITO */
+.btn-carrito {
+    background: #ff4da6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+    .btn-carrito:hover {
+        background: #e60073;
+    }
+
+/* CONTENEDOR ABANICO PREMIUM */
+.catalogo {
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+    /* IMAGEN */
+    .catalogo .item img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+      
+.carousel-track .item img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+    /* BOTON */
+    .btn {
+        background: #ff4da6;
+        color: white;
+        border: none;
+        padding: 8px;
+        border-radius: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: #e60073;
+    }
+/* ============================= */
+/* 🎠 CONTENEDOR CARRUSEL 3D */
+/* ============================= */
+
+.carousel {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1200px;
+}
+
+/* ============================= */
+/* 🎴 TARJETAS */
+/* ============================= */
+
+.carousel-track .item {
+    position: absolute;
+    width: 220px;
+    height: 280px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    backface-visibility: hidden;
+    transition: transform 0.4s ease;
+}
+
+    /* IMAGEN */
+    .carousel-track .item img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    /* TITULO */
+    .carousel-track .item h1 {
+        margin: 10px 0 5px;
+        color: #fff;
+    }
+
+    /* PRECIO */
+    .carousel-track .item p {
+        font-weight: bold;
+        color: #fff;
+    }
+
+    /* ============================= */
+    /* 📐 DISTRIBUCIÓN EN CÍRCULO */
+    /* ============================= */
+
+    .carousel-track .item:nth-child(1) {
+        transform: rotateY(0deg) translateZ(400px);
+    }
+
+    .carousel-track .item:nth-child(2) {
+        transform: rotateY(72deg) translateZ(400px);
+    }
+
+    .carousel-track .item:nth-child(3) {
+        transform: rotateY(144deg) translateZ(400px);
+    }
+
+    .carousel-track .item:nth-child(4) {
+        transform: rotateY(216deg) translateZ(400px);
+    }
+
+    .carousel-track .item:nth-child(5) {
+        transform: rotateY(288deg) translateZ(400px);
+    }
+/* ============================= */
+/* 🌸 BOTON PREMIUM ROSA */
+/* ============================= */
+
+.btn-premium {
+    background: linear-gradient(135deg, #ff80b5, #ff4d94);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25), inset 0 2px 6px rgba(255,255,255,0.6);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+    /* Hover elegante */
+    .btn-premium:hover {
+        transform: scale(1.08);
+        background: linear-gradient(135deg, #ff99cc, #ff3385);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.3), inset 0 2px 8px rgba(255,255,255,0.7);
+    }
+
+    /* Click */
+    .btn-premium:active {
+        transform: scale(0.95);
+    }
+    

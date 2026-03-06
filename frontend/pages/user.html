@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Usuarios</title>
+  <link rel="stylesheet" href="/css/user.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <button onclick="cerrarSesion()">Cerrar sesión</button>
+  <script>
+    function cerrarSesion() {
+      localStorage.removeItem('token');
+      window.location.href = '/pages/login.html';
+    }
+  </script>
+  <h1>Usuarios Registrados</h1>
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Email</th>
+        <th>Rol</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- Modal de edición -->
+  <div id="editModal" class="modal">
+    <div class="modal-content">
+      <h2>Editar Usuario</h2>
+      <form id="editForm">
+        <input type="hidden" id="editId">
+        <input type="text" id="editName" placeholder="Nombre">
+        <input type="email" id="editEmail" placeholder="Email">
+        <select id="editRol">
+          <option value="admin">Admin</option>
+          <option value="cliente">Cliente</option>
+        </select>
+        <button type="submit">Guardar</button>
+        <button type="button" id="closeModal">Cancelar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../js/user.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+﻿
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #c084c6, #e6a3c7);
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+    .login-container {
+    display: flex;
+    flex-direction: column; /* 👈 Esto lo hace vertical */
+    align-items: center;
+    gap: 15px;
+}
+
+    .login-container h2 {
+        margin-bottom: 20px;
+    }
+
+    .login-container input {
+        width: 250px;
+        padding: 8px;
+    }
+
+    .login-container button {
+        width: 270px;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        background: #ff5c93;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }

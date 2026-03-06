@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Gestión de Productos</title>
+    <!-- Usa el mismo CSS donde ya tienes estilos de tabla y del modal -->
+    <link rel="stylesheet" href="/css/user.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <h1>Gestión de Productos</h1>
+
+  <!-- Formulario de creación -->
+  <form id="productoForm">
+    <input type="text" id="producto" placeholder="Producto" required />
+    <input type="text" id="descripcion" placeholder="Descripción" />
+    <input type="number" id="precio_compra" placeholder="Precio Compra" required />
+    <input type="number" id="precio_venta" placeholder="Precio Venta" required />
+    <input type="number" id="stock" placeholder="Stock" />
+    <input type="text" id="imagen_url" placeholder="URL Imagen" />
+    <input type="date" id="fecha_compra" required />
+    <button type="submit">Guardar</button>
+  </form>
+
+  <h2>Lista de Productos</h2>
+  <table id="tablaProductos">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Producto</th>
+        <th>Descripción</th>
+        <th>Compra</th>
+        <th>Venta</th>
+        <th>Stock</th>
+        <th>Imagen</th>
+        <th>Fecha</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="listaProductos"></tbody>
+  </table>
+
+  <!-- Modal de edición (igual patrón que usuarios) -->
+  <div id="editModal" class="modal">
+    <div class="modal-content">
+      <h2>Editar Producto</h2>
+      <form id="editForm">
+        <input type="hidden" id="editId" />
+        <input type="text" id="editProducto" placeholder="Producto" required />
+        <input type="text" id="editDescripcion" placeholder="Descripción" />
+        <input type="number" id="editPrecioCompra" placeholder="Precio Compra" required />
+        <input type="number" id="editPrecioVenta" placeholder="Precio Venta" required />
+        <input type="number" id="editStock" placeholder="Stock" />
+        <input type="text" id="editImagenUrl" placeholder="URL Imagen" />
+        <input type="date" id="editFechaCompra" required />
+        <button type="submit">Guardar</button>
+        <button type="button" id="closeModal">Cancelar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/js/productos.js"></script>
+</body>
+</html>
+
+
