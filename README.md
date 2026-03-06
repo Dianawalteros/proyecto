@@ -127,3 +127,5 @@ Estudiante de Desarrollo de Software.
 
 ## Diagrama de Secuencia
 ![Secuencia](documentacion/diagramas/diagrama_secuencia.png)
+Agregar diagramas UML al README
+
