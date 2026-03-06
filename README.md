@@ -121,11 +121,17 @@ Estudiante de Desarrollo de Software.
 
 ## Diagrama de Casos de Uso
 ![Casos de Uso](documentacion/diagramas/casos-de-uso.png)
+<img width="1536" height="1024" alt="casos-de-uso (2)" src="https://github.com/user-attachments/assets/29dca48b-cb33-4401-aa84-d34574c06d6c" />
 
 ## Diagrama de Clases
 ![Clases](documentacion/diagramas/diagrama_clases.png)
+<img width="1536" height="1024" alt="diagrama-de-clases" src="https://github.com/user-attachments/assets/10a0e490-b493-40a5-81af-fd6835bd8a24" />
+
 
 ## Diagrama de Secuencia
 ![Secuencia](documentacion/diagramas/diagrama_secuencia.png)
+<img width="1536" height="1024" alt="diagrama-de-secuencia" src="https://github.com/user-attachments/assets/b5eb4a95-a06c-46ec-8d3d-97c33325141e" />
+
+
 Agregar diagramas UML al README
 
