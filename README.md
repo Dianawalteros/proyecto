@@ -1,11 +1,11 @@
-# ?? Sistema de Gesti髇 para Empresa de Dulces
+#  Sistema de Gesti贸n para Empresa de Dulces
 
-## ?? Descripci髇 del Proyecto
+##  Descripci贸n del Proyecto
 
-Este proyecto consiste en el desarrollo de una aplicaci髇 web para la gesti髇 de una empresa de dulces.
-El sistema permite administrar productos, registrar usuarios, gestionar ventas y visualizar la informaci髇 de la tienda de manera organizada.
+Este proyecto consiste en el desarrollo de una aplicaci贸n web para la gesti贸n de una empresa de dulces.
+El sistema permite administrar productos, registrar usuarios, gestionar ventas y visualizar la informaci贸n de la tienda de manera organizada.
 
-El objetivo principal del sistema es facilitar el control y administraci髇 de los productos y ventas de la empresa, permitiendo una mejor gesti髇 del negocio.
+El objetivo principal del sistema es facilitar el control y administraci贸n de los productos y ventas de la empresa, permitiendo una mejor gesti贸n del negocio.
 
 ---
 
@@ -15,7 +15,7 @@ El objetivo principal del sistema es facilitar el control y administraci髇 de lo
 
 Desarrollar un sistema web que permita gestionar los productos, usuarios y ventas de una empresa de dulces.
 
-### Objetivos Espec韋icos
+### Objetivos Espec铆ficos
 
 * Registrar y administrar productos.
 * Gestionar usuarios del sistema.
@@ -25,7 +25,7 @@ Desarrollar un sistema web que permita gestionar los productos, usuarios y venta
 
 ---
 
-## ?? Tecnolog韆s Utilizadas
+## ?? Tecnolog铆as Utilizadas
 
 ### Frontend
 
@@ -55,7 +55,7 @@ Desarrollar un sistema web que permita gestionar los productos, usuarios y venta
 proyecto
 ?
 ??? backend
-?   ??? servidor y l骻ica del sistema
+?   ??? servidor y l贸gica del sistema
 ?
 ??? frontend
 ?   ??? pages
@@ -71,7 +71,7 @@ proyecto
 
 ---
 
-## ?? Instalaci髇 del Proyecto
+## ?? Instalaci贸n del Proyecto
 
 1. Clonar el repositorio
 
@@ -102,8 +102,8 @@ npm start
 ## ?? Funcionalidades del Sistema
 
 * Registro de usuarios
-* Gesti髇 de productos
-* Visualizaci髇 de productos
+* Gesti贸n de productos
+* Visualizaci贸n de productos
 * Carrito de compras
 * Registro de ventas
 
